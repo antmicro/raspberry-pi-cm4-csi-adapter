@@ -1,12 +1,120 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# antmicroFCCConnectors_WE_68715014522
+# GND
 #
-DEF antmicroFCCConnectors_WE_68715014522 J 0 40 Y N 1 F N
+DEF rpi-cm4-csi-adapter_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "rpi-cm4-csi-adapter_GND" 0 -150 50 H V C CNN
+F2 "rpi-cm4-csi-adapter-footprints:" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 687122149022
+#
+DEF rpi-cm4-csi-adapter_687122149022 J 0 40 Y N 1 F N
+F0 "J" 0 1100 50 H V C CNN
+F1 "rpi-cm4-csi-adapter_687122149022" 625 -50 50 H V C CNN
+F2 "rpi-cm4-csi-adapter-footprints:687122149022" 525 -150 50 H I C CNN
+F3 "" 1575 -450 50 H I C CNN
+F4 "687122149022" 275 200 60 H I L CNN "MPN"
+F5 "Wurth Elektronik" 275 75 60 H I L CNN "Manufacturer"
+DRAW
+S -50 -1095 0 -1105 1 1 6 N
+S -50 -995 0 -1005 1 1 6 N
+S -50 -895 0 -905 1 1 6 N
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 905 0 895 1 1 6 N
+S -50 1005 0 995 1 1 6 N
+S -50 1050 50 -1150 1 1 10 f
+X Pin_1 1 -200 1000 150 R 50 50 1 1 P
+X Pin_10 10 -200 100 150 R 50 50 1 1 P
+X Pin_11 11 -200 0 150 R 50 50 1 1 P
+X Pin_12 12 -200 -100 150 R 50 50 1 1 P
+X Pin_13 13 -200 -200 150 R 50 50 1 1 P
+X Pin_14 14 -200 -300 150 R 50 50 1 1 P
+X Pin_15 15 -200 -400 150 R 50 50 1 1 P
+X Pin_16 16 -200 -500 150 R 50 50 1 1 P
+X Pin_17 17 -200 -600 150 R 50 50 1 1 P
+X Pin_18 18 -200 -700 150 R 50 50 1 1 P
+X Pin_19 19 -200 -800 150 R 50 50 1 1 P
+X Pin_2 2 -200 900 150 R 50 50 1 1 P
+X Pin_20 20 -200 -900 150 R 50 50 1 1 P
+X Pin_21 21 -200 -1000 150 R 50 50 1 1 P
+X Pin_22 22 -200 -1100 150 R 50 50 1 1 P
+X Pin_3 3 -200 800 150 R 50 50 1 1 P
+X Pin_4 4 -200 700 150 R 50 50 1 1 P
+X Pin_5 5 -200 600 150 R 50 50 1 1 P
+X Pin_6 6 -200 500 150 R 50 50 1 1 P
+X Pin_7 7 -200 400 150 R 50 50 1 1 P
+X Pin_8 8 -200 300 150 R 50 50 1 1 P
+X Pin_9 9 -200 200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PCB_Mount_Hole_2.5_6.2
+#
+DEF rpi-cm4-csi-adapter_PCB_Mount_Hole_2.5_6.2 MP 0 40 Y Y 1 F N
+F0 "MP" 0 250 50 H V C CNN
+F1 "rpi-cm4-csi-adapter_PCB_Mount_Hole_2.5_6.2" 0 -250 50 H V C CNN
+F2 "rpi-cm4-csi-adapter-footprints:Mount-hole-M2.5" 800 700 50 H I C CNN
+F3 "" 950 800 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 180 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# antmicro_logo
+#
+DEF rpi-cm4-csi-adapter_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "rpi-cm4-csi-adapter_antmicro_logo" 0 -200 50 H V C CNN
+F2 "rpi-cm4-csi-adapter-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# oshw_logo
+#
+DEF rpi-cm4-csi-adapter_oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "rpi-cm4-csi-adapter_oshw_logo" 30 -150 50 H V C CNN
+F2 "rpi-cm4-csi-adapter-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# WE_68715014522
+#
+DEF rpi-cm4-csi-adapter_WE_68715014522 J 0 40 Y N 1 F N
 F0 "J" 0 1700 50 H V C CNN
-F1 "antmicroFCCConnectors_WE_68715014522" -100 -3450 50 H V C CNN
-F2 "antmicro-footprints:WE_68715014522" -200 -3550 50 H I C CNN
+F1 "rpi-cm4-csi-adapter_WE_68715014522" -100 -3450 50 H V C CNN
+F2 "rpi-cm4-csi-adapter-footprints:WE_68715014522" -200 -3550 50 H I C CNN
 F3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" 0 -3650 50 H I C CNN
 F4 "68715014522 " 400 -600 60 H I L CNN "MPN"
 F5 "Wurth Elektronik " 650 -1800 60 H I L CNN "Manufacturer"
@@ -115,12 +223,42 @@ X Pin_9 9 -200 800 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroLEDIndicationDiscrete_KP-1608CGCK
+# TP
 #
-DEF antmicroLEDIndicationDiscrete_KP-1608CGCK D 0 0 Y Y 1 F N
+DEF rpi-cm4-csi-adapter_TP TP 0 40 Y Y 1 F N
+F0 "TP" 0 0 50 H V C CNN
+F1 "rpi-cm4-csi-adapter_TP" 0 0 50 H I C CNN
+F2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 22 1 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_0R_0402
+#
+DEF rpi-cm4-csi-adapter_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "rpi-cm4-csi-adapter_R_0R_0402" 0 -150 60 H I C CNN
+F2 "rpi-cm4-csi-adapter-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KP-1608CGCK
+#
+DEF rpi-cm4-csi-adapter_KP-1608CGCK D 0 0 Y Y 1 F N
 F0 "D" -200 150 60 H V C CNN
-F1 "antmicroLEDIndicationDiscrete_KP-1608CGCK" 0 -150 60 H V C CNN
-F2 "antmicro-footprints:LED_0603" 200 200 60 H I L CNN
+F1 "rpi-cm4-csi-adapter_KP-1608CGCK" 0 -150 60 H V C CNN
+F2 "rpi-cm4-csi-adapter-footprints:LED_0603" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "KP-1608CGCK" 200 500 60 H I L CNN "MPN"
 F5 "KINGBRIGHT" 210 620 60 H I L CNN "Manufacturer"
@@ -136,53 +274,12 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroMechanicalParts_antmicro_logo
+# R_330R_0402
 #
-DEF antmicroMechanicalParts_antmicro_logo N 0 40 Y Y 1 F N
-F0 "N" 0 350 50 H V C CNN
-F1 "antmicroMechanicalParts_antmicro_logo" 0 -200 50 H V C CNN
-F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
-F3 "" 0 350 50 H I C CNN
-DRAW
-T 0 50 50 79 0 0 0 Logo Normal 0 C C
-ENDDRAW
-ENDDEF
-#
-# antmicroMechanicalParts_oshw_logo
-#
-DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
-F0 "N" 20 40 50 H V C CNN
-F1 "antmicroMechanicalParts_oshw_logo" 30 -150 50 H V C CNN
-F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 30 -40 79 0 1 1 Logo Normal 0 C C
-ENDDRAW
-ENDDEF
-#
-# antmicroResistors0402_R_0R_0402
-#
-DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
+DEF rpi-cm4-csi-adapter_R_330R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroResistors0402_R_330R_0402
-#
-DEF antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_330R_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F1 "rpi-cm4-csi-adapter_R_330R_0402" 0 -150 60 H I C CNN
+F2 "rpi-cm4-csi-adapter-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCMR04X3300FTL" 200 300 60 H I L CNN "MPN"
@@ -191,103 +288,6 @@ DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
 X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroTestPoints_TP
-#
-DEF antmicroTestPoints_TP TP 0 40 Y Y 1 F N
-F0 "TP" 0 0 50 H V C CNN
-F1 "antmicroTestPoints_TP" 0 0 50 H I C CNN
-F2 "antmicro-footprints:TP-R-1.5" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 0 22 1 1 0 N
-X ~ 1 0 100 75 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rpi-cm4-csi-adapter_687122149022
-#
-DEF rpi-cm4-csi-adapter_687122149022 J 0 40 Y N 1 F N
-F0 "J" 0 1100 50 H V C CNN
-F1 "rpi-cm4-csi-adapter_687122149022" 625 -50 50 H V C CNN
-F2 "rpi-cm4-csi-adapter-footprints:687122149022" 525 -150 50 H I C CNN
-F3 "" 1575 -450 50 H I C CNN
-F4 "687122149022" 275 200 60 H I L CNN "MPN"
-F5 "Wurth Elektronik" 275 75 60 H I L CNN "Manufacturer"
-DRAW
-S -50 -1095 0 -1105 1 1 6 N
-S -50 -995 0 -1005 1 1 6 N
-S -50 -895 0 -905 1 1 6 N
-S -50 -795 0 -805 1 1 6 N
-S -50 -695 0 -705 1 1 6 N
-S -50 -595 0 -605 1 1 6 N
-S -50 -495 0 -505 1 1 6 N
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 405 0 395 1 1 6 N
-S -50 505 0 495 1 1 6 N
-S -50 605 0 595 1 1 6 N
-S -50 705 0 695 1 1 6 N
-S -50 805 0 795 1 1 6 N
-S -50 905 0 895 1 1 6 N
-S -50 1005 0 995 1 1 6 N
-S -50 1050 50 -1150 1 1 10 f
-X Pin_1 1 -200 1000 150 R 50 50 1 1 P
-X Pin_10 10 -200 100 150 R 50 50 1 1 P
-X Pin_11 11 -200 0 150 R 50 50 1 1 P
-X Pin_12 12 -200 -100 150 R 50 50 1 1 P
-X Pin_13 13 -200 -200 150 R 50 50 1 1 P
-X Pin_14 14 -200 -300 150 R 50 50 1 1 P
-X Pin_15 15 -200 -400 150 R 50 50 1 1 P
-X Pin_16 16 -200 -500 150 R 50 50 1 1 P
-X Pin_17 17 -200 -600 150 R 50 50 1 1 P
-X Pin_18 18 -200 -700 150 R 50 50 1 1 P
-X Pin_19 19 -200 -800 150 R 50 50 1 1 P
-X Pin_2 2 -200 900 150 R 50 50 1 1 P
-X Pin_20 20 -200 -900 150 R 50 50 1 1 P
-X Pin_21 21 -200 -1000 150 R 50 50 1 1 P
-X Pin_22 22 -200 -1100 150 R 50 50 1 1 P
-X Pin_3 3 -200 800 150 R 50 50 1 1 P
-X Pin_4 4 -200 700 150 R 50 50 1 1 P
-X Pin_5 5 -200 600 150 R 50 50 1 1 P
-X Pin_6 6 -200 500 150 R 50 50 1 1 P
-X Pin_7 7 -200 400 150 R 50 50 1 1 P
-X Pin_8 8 -200 300 150 R 50 50 1 1 P
-X Pin_9 9 -200 200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rpi-cm4-csi-adapter_GND
-#
-DEF rpi-cm4-csi-adapter_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "rpi-cm4-csi-adapter_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# rpi-cm4-csi-adapter_PCB_Mount_Hole_2.5_6.2
-#
-DEF rpi-cm4-csi-adapter_PCB_Mount_Hole_2.5_6.2 MP 0 40 Y Y 1 F N
-F0 "MP" 0 250 50 H V C CNN
-F1 "rpi-cm4-csi-adapter_PCB_Mount_Hole_2.5_6.2" 0 -250 50 H V C CNN
-F2 "rpi-cm4-csi-adapter-footprints:Mount-hole-M2.5" 800 700 50 H I C CNN
-F3 "" 950 800 50 H I C CNN
-DRAW
-C 0 0 71 0 1 0 N
-C 0 0 180 0 1 0 N
 ENDDRAW
 ENDDEF
 #

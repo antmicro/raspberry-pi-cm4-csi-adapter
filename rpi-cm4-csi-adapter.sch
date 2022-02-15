@@ -2401,23 +2401,23 @@ Wire Wire Line
 	5300 3400 5300 3700
 NoConn ~ 9625 6200
 $Comp
-L antmicroMechanicalParts:antmicro_logo N1
+L rpi-cm4-csi-adapter:antmicro_logo N1
 U 1 1 620D8E74
 P 6575 10000
 F 0 "N1" H 6789 10093 50  0000 L CNN
 F 1 "antmicro_logo" H 6789 10002 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_12mm" H 6475 10250 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:antmicro-logo_scaled_12mm" H 6475 10250 50  0001 C CNN
 F 3 "" H 6575 10350 50  0001 C CNN
 	1    6575 10000
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:oshw_logo N2
+L rpi-cm4-csi-adapter:oshw_logo N2
 U 1 1 620D97AB
 P 6600 10200
 F 0 "N2" H 6794 10203 50  0000 L CNN
 F 1 "oshw_logo" H 6794 10112 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 6620 9960 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:oshw-logo" H 6620 9960 50  0001 C CNN
 F 3 "" H 6600 10200 50  0001 C CNN
 	1    6600 10200
 	1    0    0    -1  
@@ -2451,12 +2451,12 @@ MIPI0_D3_P
 Text Notes 8200 3000 0    50   ~ 0
 MIPI0_D3_N
 $Comp
-L antmicroFCCConnectors:WE_68715014522 J2
+L rpi-cm4-csi-adapter:WE_68715014522 J2
 U 1 1 620C5002
 P 9825 4600
 F 0 "J2" H 9905 3792 50  0000 L CNN
 F 1 "WE_68715014522" H 9905 3701 50  0000 L CNN
-F 2 "antmicro-footprints:WE_68715014522" H 9625 1050 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:WE_68715014522" H 9625 1050 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" H 9825 950 50  0001 C CNN
 F 4 "68715014522 " H 10225 4000 60  0001 L CNN "MPN"
 F 5 "Wurth Elektronik " H 10475 2800 60  0001 L CNN "Manufacturer"
@@ -2500,56 +2500,56 @@ CAM1_D3_N
 Text Label 8800 3100 0    50   ~ 0
 CAM1_D3_P
 $Comp
-L antmicroTestPoints:TP TP1
+L rpi-cm4-csi-adapter:TP TP1
 U 1 1 620C5B77
 P 7575 6800
 F 0 "TP1" V 7575 6700 50  0000 C CNN
 F 1 "TP" H 7575 6800 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 7575 6800 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" H 7575 6800 50  0001 C CNN
 F 3 "" H 7575 6800 50  0001 C CNN
 	1    7575 6800
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP2
+L rpi-cm4-csi-adapter:TP TP2
 U 1 1 620C6DC6
 P 7575 6900
 F 0 "TP2" V 7575 6800 50  0000 C CNN
 F 1 "TP" H 7575 6900 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 7575 6900 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" H 7575 6900 50  0001 C CNN
 F 3 "" H 7575 6900 50  0001 C CNN
 	1    7575 6900
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP3
+L rpi-cm4-csi-adapter:TP TP3
 U 1 1 620C7722
 P 8725 7000
 F 0 "TP3" V 8725 6900 50  0000 C CNN
 F 1 "TP" H 8725 7000 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 8725 7000 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" H 8725 7000 50  0001 C CNN
 F 3 "" H 8725 7000 50  0001 C CNN
 	1    8725 7000
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP4
+L rpi-cm4-csi-adapter:TP TP4
 U 1 1 620C7B7D
 P 8725 7100
 F 0 "TP4" V 8725 7000 50  0000 C CNN
 F 1 "TP" H 8725 7100 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 8725 7100 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" H 8725 7100 50  0001 C CNN
 F 3 "" H 8725 7100 50  0001 C CNN
 	1    8725 7100
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R1
+L rpi-cm4-csi-adapter:R_0R_0402 R1
 U 1 1 620C8651
 P 8400 6800
 F 0 "R1" H 8200 6850 60  0000 C CNN
 F 1 "R_0R_0402" H 8400 6650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8600 7000 60  0001 L CNN
+F 2 "rpi-cm4-csi-adapter-footprints:0402-res" H 8600 7000 60  0001 L CNN
 F 3 "" H 8400 6800 50  0001 C CNN
 F 4 "PANASONIC" H 8600 7200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8600 7100 60  0001 L CNN "MPN"
@@ -2558,12 +2558,12 @@ F 6 "0R" H 8400 6800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R2
+L rpi-cm4-csi-adapter:R_0R_0402 R2
 U 1 1 620C8C50
 P 8400 6900
 F 0 "R2" H 8200 6825 60  0000 C CNN
 F 1 "R_0R_0402" H 8400 6750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8600 7100 60  0001 L CNN
+F 2 "rpi-cm4-csi-adapter-footprints:0402-res" H 8600 7100 60  0001 L CNN
 F 3 "" H 8400 6900 50  0001 C CNN
 F 4 "PANASONIC" H 8600 7300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8600 7200 60  0001 L CNN "MPN"
@@ -2572,12 +2572,12 @@ F 6 "0R" H 8400 6900 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP6
+L rpi-cm4-csi-adapter:TP TP6
 U 1 1 620EC6D1
 P 8950 7500
 F 0 "TP6" V 8950 7400 50  0000 C CNN
 F 1 "TP" H 8950 7500 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 8950 7500 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" H 8950 7500 50  0001 C CNN
 F 3 "" H 8950 7500 50  0001 C CNN
 	1    8950 7500
 	-1   0    0    1   
@@ -2586,12 +2586,12 @@ Connection ~ 8950 7600
 Wire Wire Line
 	8950 7600 9375 7600
 $Comp
-L antmicroTestPoints:TP TP5
+L rpi-cm4-csi-adapter:TP TP5
 U 1 1 620ED0C0
 P 8850 7800
 F 0 "TP5" V 8850 7700 50  0000 C CNN
 F 1 "TP" H 8850 7800 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 8850 7800 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" H 8850 7800 50  0001 C CNN
 F 3 "" H 8850 7800 50  0001 C CNN
 	1    8850 7800
 	0    1    1    0   
@@ -2614,12 +2614,12 @@ Wire Wire Line
 Text GLabel 7000 7825 0    50   Input ~ 0
 VCC_3V3
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608CGCK D1
+L rpi-cm4-csi-adapter:KP-1608CGCK D1
 U 1 1 620F57C7
 P 7325 7825
 F 0 "D1" H 6675 8125 60  0000 C CNN
 F 1 "KP-1608CGCK" H 6950 8025 60  0000 C CNN
-F 2 "antmicro-footprints:LED_0603" H 7525 8025 60  0001 L CNN
+F 2 "rpi-cm4-csi-adapter-footprints:LED_0603" H 7525 8025 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 7525 8125 60  0001 L CNN
 F 4 "KP-1608CGCK" H 7525 8325 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 7535 8445 60  0001 L CNN "Manufacturer"
@@ -2627,12 +2627,12 @@ F 5 "KINGBRIGHT" H 7535 8445 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R3
+L rpi-cm4-csi-adapter:R_330R_0402 R3
 U 1 1 620F6AB5
 P 7575 7825
 F 0 "R3" H 7575 8038 60  0000 C CNN
 F 1 "R_330R_0402" H 7575 7675 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7775 8025 60  0001 L CNN
+F 2 "rpi-cm4-csi-adapter-footprints:0402-res" H 7775 8025 60  0001 L CNN
 F 3 "" H 7575 7825 50  0001 C CNN
 F 4 "MULTICOMP" H 7775 8225 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 7775 8125 60  0001 L CNN "MPN"
@@ -2658,12 +2658,12 @@ Wire Wire Line
 Wire Wire Line
 	7850 7825 7850 7950
 $Comp
-L antmicroTestPoints:TP TP7
+L rpi-cm4-csi-adapter:TP TP7
 U 1 1 6210E036
 P 5950 4700
 F 0 "TP7" V 5950 4600 50  0000 C CNN
 F 1 "TP" H 5950 4700 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 5950 4700 50  0001 C CNN
+F 2 "rpi-cm4-csi-adapter-footprints:TP-R-1.5" H 5950 4700 50  0001 C CNN
 F 3 "" H 5950 4700 50  0001 C CNN
 	1    5950 4700
 	0    -1   -1   0   
