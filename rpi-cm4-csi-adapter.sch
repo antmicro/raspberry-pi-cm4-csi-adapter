@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "RPi CM4 CSI adapter"
-Date "2022-02-16"
-Rev "1.0.0"
+Date "2022-04"
+Rev "1.0.1"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -186,9 +186,9 @@ F 5 "Wurth Elektronik" H 5300 4175 60  0001 L CNN "Manufacturer"
 	1    5025 4100
 	-1   0    0    -1  
 $EndComp
-Text Label 7725 6800 0    50   ~ 0
-RPI_SCL0
 Text Label 7725 6900 0    50   ~ 0
+RPI_SCL0
+Text Label 7725 6800 0    50   ~ 0
 RPI_SDA0
 Wire Wire Line
 	7675 6800 8250 6800
